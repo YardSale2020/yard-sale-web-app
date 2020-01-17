@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #f50057;
+  --color-primary-light: #fff7fb;
+  --color-secondary: #c41162;
+  --color-disabled: #907b84;
+
+  --font-primary: "Saira Semi Condensed", sans-serif;
+  --font-secondary: "Lato", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
