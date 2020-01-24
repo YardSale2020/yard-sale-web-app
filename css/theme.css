@@ -4,10 +4,176 @@
   --color-secondary: #c41162;
   --color-disabled: #907b84;
 
-  --font-primary: "Saira Semi Condensed", sans-serif;
-  --font-secondary: "Lato", sans-serif;
+  --font-primary: "Lato", sans-serif;
+  --font-secondary: "Saira Semi Condensed", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  font-weight: 800;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+h6 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+p {
+  font-family: var(--font-primary);
+}
+
+.overview {
+  font-family: var(--font-secondary);
+}
+
+ul {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+ol {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+dl {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+a {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+blockquote {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 300;
+  font-style: italic;
+}
+
+em {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+strong {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+del {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+ins {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+abbr {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+  font-style: italic;
+}
+
+dfn {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+  font-style: italic;
+}
+
+i {
+  font-family: var(--font-secondary);
+  color: var(--color-pink);
+  font-weight: 400;
+  font-style: italic;
+}
+
+b {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+mark {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  background-color: var(--color-yellow);
+  font-weight: 500;
+}
+
+q {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+s {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+u {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+a {
+  color: var(--color-blue);
+}
+
+caption {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.copyright {
+  font-family: var(--font-secondary);
 }
