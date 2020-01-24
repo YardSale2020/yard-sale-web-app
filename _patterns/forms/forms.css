@@ -2,9 +2,23 @@ label {
   font-family: var(--font-secondary);
 }
 
+input {
+  border: 3px solid var(--color-primary);
+  border-radius: 10px 10px 0 0;
+}
+
 select {
   background-image: url(/images/select-arrow.svg);
   background-size: 10px;
   border: 3px solid var(--color-primary);
   border-radius: 10px 10px 0 0;
 }
+
+.file-input {
+  height: 38px;
+}
+
+/* input [type="file"] {
+  background-color: var(--color-primary-light);
+  border: solid 1px var(--color-secondary);
+} */
