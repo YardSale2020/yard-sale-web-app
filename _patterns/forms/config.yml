@@ -1,0 +1,9 @@
+title: "Forms"
+description: |
+  Form fields for adjusting the map and for Posters to create their posts.
+
+patterns:
+  distance:
+    title: "Distance"
+    description: |
+      This form field will be used for users to pick the distance range they would like to search within.
