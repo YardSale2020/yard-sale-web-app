@@ -15,10 +15,5 @@ select {
 }
 
 .file-input {
-  height: 38px;
+  height: 40px;
 }
-
-/* input [type="file"] {
-  background-color: var(--color-primary-light);
-  border: solid 1px var(--color-secondary);
-} */
