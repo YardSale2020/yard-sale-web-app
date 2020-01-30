@@ -24,3 +24,11 @@ button svg {
 button:hover svg {
   fill: var(--color-secondary);
 }
+
+.grey-btn {
+  color: var(--color-disabled);
+  text-decoration: none;
+}
+.grey-btn:hover {
+  color: var(--color-secondary);
+}
