@@ -10,8 +10,4 @@ patterns:
   ghost:
     title: "Ghost"
     description: |
-      This button is used for banners to match styles.
-  light:
-    title: "Light"
-    description: |
-      This is the most dramatic, used for buying and checking out.
+      This button is used for anything alternative. We would like to use if we want something different.
