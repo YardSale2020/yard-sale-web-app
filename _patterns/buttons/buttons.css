@@ -10,15 +10,17 @@
   border-color: var(--color-primary);
 }
 
-
-.btn-ghost {
-  border-color: var(--color-primary);
-  color: var(--color-primary-light);
+button {
   background-color: transparent;
+  border: none;
 }
-
-.btn-ghost:hover {
-  background-color: var(--color-secondary);
-  border-color: transparent;
-  color: var(--color-primary);
+button:hover {
+  background-color: transparent;
+  border: none;
+}
+button svg {
+  fill: var(--color-primary);
+}
+button:hover svg {
+  fill: var(--color-secondary);
 }

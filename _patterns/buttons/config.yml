@@ -7,7 +7,3 @@ patterns:
     title: "Basic"
     description: |
         This button is used through the app to select an option.
-  ghost:
-    title: "Ghost"
-    description: |
-      This button is used for anything alternative. We would like to use if we want something different.
