@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-.masthead {
+.header {
   border-bottom: solid 3px var(--color-primary);
 }
 
@@ -16,9 +16,4 @@
 
 .nav-ul li {
   display: block;
-}
-
-.logo {
-  text-align: center;
-  color: #fff;
 }

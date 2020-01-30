@@ -13,7 +13,7 @@
 
 .btn-ghost {
   border-color: var(--color-primary);
-  color: var();
+  color: var(--color-primary-light);
   background-color: transparent;
 }
 
