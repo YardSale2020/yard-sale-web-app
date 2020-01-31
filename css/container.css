@@ -1,21 +1,40 @@
-.module {
+.module-overlay {
   background-color: var(--color-primary-light);
   border: 3px solid var(--color-primary);
   border-radius: 10px 10px 0 0;
-  max-width: 43em;
-}
-
-.module-overlay {
-
+  margin: 10px 10px 0 10px;
 }
 
 .module-full {
-
+  background-color: var(--color-primary-light);
+  height: 100vh;
 }
 
 @media only screen and (min-width: 38em) {
-  .module {
+
+  .module-overlay {
     position: absolute;
-    transform: translate(50%);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 38em;
+    max-width: 43em;
+    height: 75vh;
+  }
+
+  .module-full {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 38em;
+    max-width: 43em;
+    height: 75vh;
+    border: 3px solid var(--color-primary);
+    border-radius: 10px 10px 0 0;
+  }
+
+  .module-content {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
   }
 }
