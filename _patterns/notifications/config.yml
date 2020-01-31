@@ -7,3 +7,11 @@ patterns:
     title: "Post Notification"
     description: |
       The notifcation that will display when a user posts a new item.
+  post-confirmed:
+    title: "Post Confirmed"
+    description: |
+      This notification tells users their post was succesful.
+  text-only:
+    title: "Disclaimer"
+    description: |
+      Text-only button telling users their item is ready to be picked up.
