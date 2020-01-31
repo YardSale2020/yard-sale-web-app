@@ -1,0 +1,35 @@
+.btn {
+  background-color: var(--color-primary);
+  color: var(--color-primary-light);
+  border: 3px solid var(--color-primary);
+  border-radius: 10px 10px 0 0;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--color-secondary);
+  border-color: var(--color-primary);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+button:hover {
+  background-color: transparent;
+  border: none;
+}
+button svg {
+  fill: var(--color-primary);
+}
+button:hover svg {
+  fill: var(--color-secondary);
+}
+
+.grey-btn {
+  color: var(--color-disabled);
+  text-decoration: none !important;
+}
+.grey-btn:hover {
+  color: var(--color-secondary);
+}
