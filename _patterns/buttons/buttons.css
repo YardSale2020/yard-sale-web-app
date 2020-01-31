@@ -26,8 +26,8 @@ button:hover svg {
 }
 
 .grey-btn {
-  color: var(--color-disabled);
-  text-decoration: none;
+  color: var(--color-disabled) !important;
+  text-decoration: none !important;
 }
 .grey-btn:hover {
   color: var(--color-secondary);

@@ -7,8 +7,8 @@ patterns:
     title: "Basic"
     description: |
         This button is used through the app to select an option.
-  back:
-    title: "Back-btn"
+  back-btn:
+    title: "Back"
     description: |
         This button is a back button
   edit:
