@@ -15,3 +15,27 @@ patterns:
     title: "Edit"
     description: |
         This button is used to select the edit option
+  close-btn:
+    title: "Close"
+    description: |
+        This button is used to close the window
+  picked-up-btn:
+    title: "Picked Up"
+    description: |
+        This button is used to  request the pickup
+  confirm-pickup-btn:
+    title: "Confirmed Pick Up"
+    description: |
+        This button is used to confirm the pickup
+  post:
+    title: "Confirmed Pick Up"
+    description: |
+        This button is used to confirm the pickup
+  yes:
+    title: "YES"
+    description: |
+        This button is used to confirm yes
+  no:
+    title: "NO"
+    description: |
+        This button is used to confirm no
