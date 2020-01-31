@@ -6,36 +6,40 @@ patterns:
   basic:
     title: "Basic"
     description: |
-        This button is used through the app to select an option.
+      This button is used through the app to select an option.
   back-btn:
     title: "Back"
     description: |
-        This button is a back button
+      This button is a back button
   edit:
     title: "Edit"
     description: |
-        This button is used to select the edit option
+      This button is used to select the edit option
   close-btn:
     title: "Close"
     description: |
-        This button is used to close the window
+      This button is used to close the window
   picked-up-btn:
     title: "Picked Up"
     description: |
-        This button is used to  request the pickup
+      This button is used to  request the pickup
   confirm-pickup-btn:
     title: "Confirmed Pick Up"
     description: |
-        This button is used to confirm the pickup
+      This button is used to confirm the pickup
   post:
-    title: "Confirmed Pick Up"
+    title: "Post"
     description: |
-        This button is used to confirm the pickup
-  yes:
+      This button is used to confirm the pickup
+  btn-yes:
     title: "YES"
     description: |
-        This button is used to confirm yes
-  no:
+      This button is used to confirm yes
+  btn-no:
     title: "NO"
     description: |
-        This button is used to confirm no
+      This button is used to confirm no
+  delete-btn:
+    title: "delete"
+    description: |
+      This button is used to delete what you just did
