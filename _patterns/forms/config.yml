@@ -1,0 +1,25 @@
+title: "Forms"
+description: |
+  Form fields for adjusting the map and for Posters to create their posts.
+
+patterns:
+  address:
+    title: "Address"
+    description: |
+      This form field will be used for users to type in their location so they can search within their area.
+  distance:
+    title: "Distance"
+    description: |
+      This form field will be used for users to pick the distance range they would like to search within.
+  title:
+    title: "Title"
+    description: |
+      This form field will be used for users to make a title for the post.
+  description:
+    title: "Description"
+    description: |
+      This form field will be used for users to make a description for their post.
+  add-photo:
+    title: "Add Photo"
+    description: |
+      This form field will be used for users to choose some photos to put in their post.
