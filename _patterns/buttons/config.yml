@@ -43,3 +43,7 @@ patterns:
     title: "delete"
     description: |
       This button is used to delete what you just did
+  repost:
+    title: "Repost"
+    description: |
+      This button is used to repost
