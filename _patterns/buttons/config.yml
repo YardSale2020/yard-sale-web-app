@@ -47,3 +47,7 @@ patterns:
     title: "Repost"
     description: |
       This button is used to repost
+  btn-ok:
+    title: "Ok"
+    description: |
+      This button is to say okay
