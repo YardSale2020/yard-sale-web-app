@@ -1,5 +1,5 @@
- {
-  color: var(--color-primary);
+ .header {
+  color: var(--color-primary-light);
   padding: .5em;
   text-align: center;
   margin: 0;
