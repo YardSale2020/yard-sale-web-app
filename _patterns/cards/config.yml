@@ -1,0 +1,9 @@
+title: "Cards"
+description: |
+  Content that will be placed into the modules layout! The first div of the card should have these two classes: max-length and island-2
+
+patterns:
+  poster-product:
+    title: "Poster Product"
+    description: |
+      This card info if for the posters product card that they see
