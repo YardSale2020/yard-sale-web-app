@@ -1,0 +1,9 @@
+title: "Header"
+description: |
+  The navigation bar on every page
+
+patterns:
+  nav:
+    title: "Navigation"
+    description: |
+      This navigation will include the search icon as well as the icon

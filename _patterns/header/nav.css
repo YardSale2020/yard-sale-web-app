@@ -1,19 +1,12 @@
- .header {
+ .logo {
   color: var(--color-primary-light);
   padding: .5em;
   text-align: center;
   margin: 0;
   overflow: hidden;
-}
-
-.header {
   border-bottom: solid 3px var(--color-primary);
 }
 
-.nav-ul > li::before {
-    content: none;
-}
-
-.nav-ul li {
-  display: block;
+.pink {
+  color: var(--color-primary);
 }
