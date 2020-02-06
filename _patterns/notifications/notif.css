@@ -1,0 +1,25 @@
+.grid {
+  border: solid 3px var(--color-primary);
+  border-radius: 10px 10px 0 0;
+  max-width: 360px;
+  max-height: 150px;
+  background-color: var(--color-primary-light);
+}
+
+.text-only {
+  border: solid 3px var(--color-primary);
+  border-radius: 10px 10px 0 0;
+  max-width: 360px;
+  background-color: var(--color-primary-light);
+}
+
+.post-confirmed {
+  border: solid 3px var(--color-primary);
+  border-radius: 10px 10px 0 0;
+  max-width: 360px;
+  background-color: var(--color-primary-light);
+}
+
+p {
+  color: var(--color-disabled);
+}
