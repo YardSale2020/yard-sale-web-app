@@ -2,4 +2,27 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Curbed"
+  description:  |
+    A web app that allows to people to efficiently get rid of/pick up things without having to talk to people or pay for the item.
   font_url: "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Saira+Semi+Condensed:300,400,500,600,700,800,900&display=swap"
+  colors:
+    primary: "--color-primary"
+    patterns:
+      brand.logos: "--color-primary-light"
+  rationales:
+    typefaces.primary: |
+      this font
+    typefaces.secondary: |
+      that font
+    colors.primary: |
+      this colour
+    colors.accent: |
+      that colour
+  layouts:
+    default: |
+      This is the layout to be used on all pages.
+    module-full: |
+      This is the layout to be used for every module that take up the full screen on small or medium sizes.
+    module-overlay: |
+      This is the layout to be used for every module that with be overlayed on the map.
