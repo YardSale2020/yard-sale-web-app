@@ -1,9 +1,0 @@
-title: "Containers"
-description: |
-  All the modules that will be used on the site.
-
-patterns:
-  pu-module:
-    title: "Pick-upper Module"
-    description: |
-      This module is for the pick up module that the user sees when they are looking at a item to potentally pick up.
