@@ -10,4 +10,5 @@ gem "jekyll"
 
 group :jekyll_plugins do
   gem "jekyll_patternbot"
+  gem "jekyll-contentblocks"
 end

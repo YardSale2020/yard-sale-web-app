@@ -2,6 +2,8 @@
 layout: default
 ---
 
-<div class="module module-overlay">
+<div class="module module-overlay {{page.noscroll}}">
   {{content}}
 </div>
+
+{% contentblock module_after %}
