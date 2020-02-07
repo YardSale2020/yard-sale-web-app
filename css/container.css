@@ -1,3 +1,14 @@
+html {
+  background-color: var(--color-primary-light);
+}
+
+main {
+  background-image: url("../../images/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .module-overlay {
   background-color: var(--color-primary-light);
   border: 3px solid var(--color-primary);

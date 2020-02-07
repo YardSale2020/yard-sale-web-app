@@ -10,3 +10,19 @@
 .pink {
   color: var(--color-primary);
 }
+
+.logo-full {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .just-c {
+    display: none;
+  }
+
+  .logo-full {
+    display: block;
+    max-width: 70px;
+  }
+}
