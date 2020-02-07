@@ -1,12 +1,13 @@
-html {
+/* html {
   background-color: var(--color-primary-light);
-}
+} */
 
-main {
-  background-image: url("../../images/map.png");
+body {
+  background-image: url("/images/map.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  min-height: 100vh;
 }
 
 .module-overlay {
