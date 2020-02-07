@@ -22,6 +22,12 @@ body {
   height: 100vh;
 }
 
+.hp-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (min-width: 38em) {
 
   .module-overlay {
