@@ -10,6 +10,10 @@ body {
   min-height: 100vh;
 }
 
+.blur-map {
+  background-image: url("/images/blur-map.png");
+}
+
 .module-overlay {
   background-color: var(--color-primary-light);
   border: 3px solid var(--color-primary);
