@@ -1,0 +1,29 @@
+---
+layout: module-overlay
+noscroll: module-overlay-noscroll
+---
+
+<div class="max-length island-2">
+  <div class="grid">
+    <div class="unit xs-1 m-1-2 push-1-2 gutter-1-4">
+      {% pattern forms/address %}
+    </div>
+    <div class="unit xs-1 m-1-2 push-1-2 gutter-1-4">
+      {% pattern forms/title %}
+    </div>
+    <div class="unit xs-1 push-1-2">
+      {% pattern forms/description %}
+    </div>
+    <div class="unit xs-1 push-1-2">
+      {% pattern forms/add-photo %}
+    </div>
+    <div class="unit xs-1 push-1-2 text-center">
+      {% pattern buttons/post %}
+    </div>
+  </div>
+
+</div>
+
+{% contentfor module_after %}
+  {% pattern notifications/post-confirmed %}
+{% endcontentfor %}
