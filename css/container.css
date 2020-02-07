@@ -45,6 +45,11 @@ body {
     overflow: scroll
   }
 
+  .module-overlay-noscroll {
+    overflow: hidden;
+    filter: blur(6px);
+  }
+
   .module-full {
     position: absolute;
     left: 50%;
