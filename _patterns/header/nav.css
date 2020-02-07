@@ -11,6 +11,10 @@
   color: var(--color-primary);
 }
 
+.pink:hover {
+  color: var(--color-secondary);
+}
+
 .logo-full {
   display: none;
 }

@@ -27,21 +27,25 @@ body {
   .module-overlay {
     position: absolute;
     left: 50%;
+    bottom: 8%;
     transform: translateX(-50%);
     min-width: 38em;
     max-width: 43em;
     height: 75vh;
+    overflow: scroll
   }
 
   .module-full {
     position: absolute;
     left: 50%;
+    bottom: 8%;
     transform: translateX(-50%);
     min-width: 38em;
     max-width: 43em;
     height: 75vh;
     border: 3px solid var(--color-primary);
     border-radius: 10px 10px 0 0;
+    overflow: scroll
   }
 
   .module-content {
