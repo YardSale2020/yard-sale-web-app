@@ -1,5 +1,5 @@
- .logo {
-  color: var(--color-primary-light);
+.logo {
+  background-color: var(--color-primary-light);
   padding: .5em;
   text-align: center;
   margin: 0;
@@ -9,4 +9,20 @@
 
 .pink {
   color: var(--color-primary);
+}
+
+.logo-full {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .just-c {
+    display: none;
+  }
+
+  .logo-full {
+    display: block;
+    max-width: 70px;
+  }
 }
