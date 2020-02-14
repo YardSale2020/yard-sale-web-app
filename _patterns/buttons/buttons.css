@@ -11,11 +11,12 @@
   border-color: var(--color-primary);
 }
 
-button {
+.btn-none {
   background-color: transparent;
   border: none;
+  color: var(--color-primary);
 }
-button:hover {
+.btn-none:hover {
   background-color: transparent;
   border: none;
 }
