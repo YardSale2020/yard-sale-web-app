@@ -12,13 +12,15 @@ patternbot:
       brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
-      this font
+      The primary typeface we chose is Lato sans-serif and is used for all paragraphs and buttons.
     typefaces.secondary: |
-      that font
+      Our secondary typeface is Source Code Pro and used for all titles or headings.
     colors.primary: |
-      this colour
+      The primary color is a beautiful bright pink associated with fun, love and nourishment.
+    colors.secondary: |
+      The secondary color is a beautiful dark pink, also associated with fun, love and nourishment.
     colors.accent: |
-      that colour
+      Our accent color is a gray-pink used for hover states, links, and secondary information.
   layouts:
     default: |
       This is the layout to be used on all pages.
