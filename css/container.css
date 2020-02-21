@@ -23,7 +23,7 @@ body {
 
 .module-full {
   background-color: var(--color-primary-light);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .hp-logo {
@@ -57,7 +57,8 @@ body {
     transform: translateX(-50%);
     min-width: 38em;
     max-width: 43em;
-    height: 75vh;
+    min-height: 75vh;
+    max-height: 75vh;
     border: 3px solid var(--color-primary);
     border-radius: 10px 10px 0 0;
     overflow: scroll
