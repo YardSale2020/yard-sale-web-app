@@ -6,4 +6,12 @@ patterns:
   poster-product:
     title: "Poster Product"
     description: |
-      This card info if for the posters product card that they see
+      This card is for the poster's product card. They see this after they post an item.
+  map-product:
+    title: "Map Product"
+    description: |
+      This card shows off the location of the item for pickup.
+  pick-up:
+    title: "Pick up card"
+    description: |
+      This card is for the pick-up person to view an item and decide whether they want to pick up the item or not.
